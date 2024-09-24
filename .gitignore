@@ -7,6 +7,12 @@
 # BlueJ files
 *.ctxt
 
+# Maven
+target/
+!.mvn/timing.properties
+!.mvn/wrapper/maven-wrapper.properties
+!.mvn/wrapper/maven-wrapper.jar
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -22,3 +28,38 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+*.jar
+*.war
+*.ear
+*.db
+*.swp
+*.swo
